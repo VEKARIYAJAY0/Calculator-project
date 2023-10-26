@@ -1,0 +1,86 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.circul{
+  width: 600px;
+  height: 600px;
+  border-radius: 874px;
+  background: #109DFF;
+  position: absolute;
+  filter: blur(15px);
+}
+
+#calculator{
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 39px;
+  background: linear-gradient(167deg, #F7F8FB -5.94%, rgba(247, 248, 251, 0.19) 103.62%);
+  backdrop-filter: blur(51px);
+}
+
+#display{
+  background: linear-gradient(167deg, #F7F8FB -5.94%, rgba(247, 248, 251, 0.19) 103.62%);
+  border-radius: 20px;
+  padding: 5px;
+  text-align: end;
+  width: 97%;
+  height: 110px;
+  border: none;
+  backdrop-filter: blur(51px);
+  color: black;
+  font-size: 35px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  gap: 14px;
+  position: relative;
+  backdrop-filter: blur(51px);
+}
+
+.flex-button{
+  border: none;
+  width: 61px;
+  height: 55px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  background: linear-gradient(130deg, rgba(255, 255, 255, 0.60) -9.69%, rgba(255, 255, 255, 0.40) 114.23%);
+  backdrop-filter: blur(6px);
+  font: bold;
+}
+
+.blue-color{
+  color: rgba(58, 58, 245, 0.929);
+}
+
+.zero{
+  align-items: flex-start;
+  width: 132px;
+}
+
+/* Blue Gradient */
+.blue-gra{
+  background-image: linear-gradient(#ADD8FF, #ADD8FF47);
+}
+
+.black{
+  color: black;
+  font-size: 30px;
+  align-items: last baseline;
+}
